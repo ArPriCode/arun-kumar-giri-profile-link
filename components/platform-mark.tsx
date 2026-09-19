@@ -47,6 +47,33 @@ export function PlatformMark({ name }: { name: PlatformName }) {
           </text>
         </svg>
       );
+    case "AtCoder":
+      return (
+        <svg viewBox="0 0 24 24" className={className} aria-hidden>
+          <rect width="24" height="24" rx="6" fill="#222" />
+          <path
+            fill="#fff"
+            d="M7.2 16.6 12 6.4l4.8 10.2h-2.1L12 10.6l-2.7 6z"
+          />
+        </svg>
+      );
+    case "Codolio":
+      return (
+        <svg viewBox="0 0 24 24" className={className} aria-hidden>
+          <rect width="24" height="24" rx="6" fill="#4F46E5" />
+          <path
+            fill="white"
+            d="M8.2 8.2h2.2v7.6H8.2zm5.4 0h2.2v7.6h-2.2zM7 11.9h10v1.8H7z"
+          />
+        </svg>
+      );
+    case "HackerRank":
+      return (
+        <svg viewBox="0 0 24 24" className={className} aria-hidden>
+          <rect width="24" height="24" rx="6" fill="#2EC866" />
+          <path fill="white" d="M8.2 6.8h2.2v4.2h3.2V6.8h2.2v10.4h-2.2v-4.4h-3.2v4.4H8.2z" />
+        </svg>
+      );
     case "CodeChef":
       return (
         <svg viewBox="0 0 24 24" className={className} aria-hidden>
