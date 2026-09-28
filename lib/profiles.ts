@@ -2,7 +2,7 @@ export const person = {
   name: "Arun Kumar Giri",
   handle: "ArPriCode",
   title: "AI/ML Engineer",
-  school: "Newton School of Technology",
+  school: "IIT Patna",
   city: "New Delhi",
 };
 
